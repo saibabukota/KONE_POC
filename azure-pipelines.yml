@@ -2,16 +2,18 @@
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
-
-trigger:
-  - int
-  - master
-  - crmdev
-
-pr:
-  - int
-  - master
-  - crmdev
+resources:
+  repositories:
+    - repository: 
+      type: Github
+      connection: konecrop
+      source: kc-app-salesforce-bizorg
+      pr: 
+      branches:
+        include:
+        - master
+        - int
+        - crmdev
 
 
 pool:
