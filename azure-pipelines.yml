@@ -3,10 +3,12 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-pr:
-- int
-- master
-- crmdev
+pr: 
+  branches:
+    include:
+    - master
+    - int
+    - crmdev
 
 pool:
   vmImage: 'ubuntu-latest'
