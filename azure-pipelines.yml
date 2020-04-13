@@ -5,6 +5,13 @@
 
 trigger:
 - master
+- int
+- crmdev
+
+pr:
+- int
+- master
+- crmdev
 
 pool:
   vmImage: 'ubuntu-latest'
