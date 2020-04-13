@@ -1,2 +1,2 @@
 # KONE_POC
-Testing of github commits to azure boards Work items OF AZURE board items Devops worlsd
+Testing of github commits to azure boards Work items OF AZURE board items Devops world
