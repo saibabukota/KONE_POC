@@ -13,7 +13,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world!
+- script: echo Azuredevops!
   displayName: 'Run a one-line script'
 
 - script: |
