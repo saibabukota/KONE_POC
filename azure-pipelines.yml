@@ -8,8 +8,8 @@ trigger:
 - int
 
 pr:
-- int
 - crmdev
+- int
 
 pool:
   vmImage: 'ubuntu-latest'
